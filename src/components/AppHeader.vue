@@ -31,7 +31,6 @@ export default {
   methods: {
     toggleAuthModal(): void {
       this.isOpen = !this.isOpen
-      console.log(this.isOpen)
     }
   }
 }
