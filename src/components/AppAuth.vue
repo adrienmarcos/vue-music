@@ -82,7 +82,6 @@
 
           <!-- Registration Form -->
           <vee-form v-show="tab === 'register'">
-            <!-- Name -->
             <div class="mb-3">
               <label class="inline-block mb-2">Name</label>
               <vee-field
@@ -94,7 +93,6 @@
               />
               <error-message class="text-red-600" name="name" />
             </div>
-            <!-- Email -->
             <div class="mb-3">
               <label class="inline-block mb-2">Email</label>
               <vee-field
@@ -106,7 +104,6 @@
               />
               <error-message class="text-red-600" name="email" />
             </div>
-            <!-- Age -->
             <div class="mb-3">
               <label class="inline-block mb-2">Age</label>
               <vee-field
@@ -117,7 +114,6 @@
               />
               <error-message class="text-red-600" name="age" />
             </div>
-            <!-- Password -->
             <div class="mb-3">
               <label class="inline-block mb-2">Password</label>
               <vee-field
@@ -129,7 +125,6 @@
               />
               <error-message class="text-red-600" name="password" />
             </div>
-            <!-- Confirm Password -->
             <div class="mb-3">
               <label class="inline-block mb-2">Confirm Password</label>
               <vee-field
@@ -141,7 +136,6 @@
               />
               <error-message class="text-red-600" name="confirm_password" />
             </div>
-            <!-- Country -->
             <div class="mb-3">
               <label class="inline-block mb-2">Country</label>
               <vee-field
@@ -157,7 +151,6 @@
               </vee-field>
               <error-message class="text-red-600" name="country" />
             </div>
-            <!-- TOS -->
             <div class="mb-3 pl-6">
               <vee-field
                 value="1"
